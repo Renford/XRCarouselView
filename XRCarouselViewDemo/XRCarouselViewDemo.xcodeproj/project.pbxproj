@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57EAD66620D271E100933168 /* XRPlaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 57EAD66420D271E100933168 /* XRPlaceholder.png */; };
+		57EAD66720D271E100933168 /* XRCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EAD66520D271E100933168 /* XRCarouselView.m */; };
 		991427D91CD1F9DC00712251 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 991427D61CD1F9DC00712251 /* 1.jpg */; };
 		991427DB1CD1F9DC00712251 /* placeholderImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 991427D81CD1F9DC00712251 /* placeholderImage.jpg */; };
 		99326F351CACC201007E138D /* current.png in Resources */ = {isa = PBXBuildFile; fileRef = 99326F301CACC201007E138D /* current.png */; };
 		99326F361CACC201007E138D /* other.png in Resources */ = {isa = PBXBuildFile; fileRef = 99326F311CACC201007E138D /* other.png */; };
-		9980F28C1D21186300E1986E /* XRCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9980F28A1D21186300E1986E /* XRCarouselView.m */; };
-		9980F28D1D21186300E1986E /* XRPlaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 9980F28B1D21186300E1986E /* XRPlaceholder.png */; };
 		9980F28F1D211F4C00E1986E /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9980F28E1D211F4C00E1986E /* 2.gif */; };
 		99C271921C9AD5C000682904 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C271911C9AD5C000682904 /* main.m */; };
 		99C271951C9AD5C000682904 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C271941C9AD5C000682904 /* AppDelegate.m */; };
@@ -23,13 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57EAD66320D271E100933168 /* XRCarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRCarouselView.h; sourceTree = "<group>"; };
+		57EAD66420D271E100933168 /* XRPlaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XRPlaceholder.png; sourceTree = "<group>"; };
+		57EAD66520D271E100933168 /* XRCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRCarouselView.m; sourceTree = "<group>"; };
 		991427D61CD1F9DC00712251 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		991427D81CD1F9DC00712251 /* placeholderImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholderImage.jpg; sourceTree = "<group>"; };
 		99326F301CACC201007E138D /* current.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = current.png; sourceTree = "<group>"; };
 		99326F311CACC201007E138D /* other.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = other.png; sourceTree = "<group>"; };
-		9980F2891D21186300E1986E /* XRCarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRCarouselView.h; sourceTree = "<group>"; };
-		9980F28A1D21186300E1986E /* XRCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRCarouselView.m; sourceTree = "<group>"; };
-		9980F28B1D21186300E1986E /* XRPlaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XRPlaceholder.png; sourceTree = "<group>"; };
 		9980F28E1D211F4C00E1986E /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.gif; sourceTree = "<group>"; };
 		99C2718D1C9AD5C000682904 /* XRCarouselViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XRCarouselViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C271911C9AD5C000682904 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -54,6 +54,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57EAD66220D271E100933168 /* XRCarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				57EAD66320D271E100933168 /* XRCarouselView.h */,
+				57EAD66420D271E100933168 /* XRPlaceholder.png */,
+				57EAD66520D271E100933168 /* XRCarouselView.m */,
+			);
+			name = XRCarouselView;
+			path = ../../XRCarouselView;
+			sourceTree = "<group>";
+		};
 		99326F2C1CACC201007E138D /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -64,16 +75,6 @@
 				99326F311CACC201007E138D /* other.png */,
 			);
 			path = Images;
-			sourceTree = "<group>";
-		};
-		9980F2881D21186300E1986E /* XRCarouselView */ = {
-			isa = PBXGroup;
-			children = (
-				9980F2891D21186300E1986E /* XRCarouselView.h */,
-				9980F28A1D21186300E1986E /* XRCarouselView.m */,
-				9980F28B1D21186300E1986E /* XRPlaceholder.png */,
-			);
-			path = XRCarouselView;
 			sourceTree = "<group>";
 		};
 		99C271841C9AD5C000682904 = {
@@ -95,7 +96,7 @@
 		99C2718F1C9AD5C000682904 /* XRCarouselViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				9980F2881D21186300E1986E /* XRCarouselView */,
+				57EAD66220D271E100933168 /* XRCarouselView */,
 				99C271931C9AD5C000682904 /* AppDelegate.h */,
 				99C271941C9AD5C000682904 /* AppDelegate.m */,
 				99C271961C9AD5C000682904 /* ViewController.h */,
@@ -178,7 +179,7 @@
 			files = (
 				99326F351CACC201007E138D /* current.png in Resources */,
 				99C271A01C9AD5C000682904 /* LaunchScreen.storyboard in Resources */,
-				9980F28D1D21186300E1986E /* XRPlaceholder.png in Resources */,
+				57EAD66620D271E100933168 /* XRPlaceholder.png in Resources */,
 				99C2719D1C9AD5C000682904 /* Assets.xcassets in Resources */,
 				99326F361CACC201007E138D /* other.png in Resources */,
 				991427D91CD1F9DC00712251 /* 1.jpg in Resources */,
@@ -197,7 +198,7 @@
 			files = (
 				99C271981C9AD5C000682904 /* ViewController.m in Sources */,
 				99C271951C9AD5C000682904 /* AppDelegate.m in Sources */,
-				9980F28C1D21186300E1986E /* XRCarouselView.m in Sources */,
+				57EAD66720D271E100933168 /* XRCarouselView.m in Sources */,
 				99C271921C9AD5C000682904 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

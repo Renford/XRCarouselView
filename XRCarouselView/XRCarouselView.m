@@ -77,9 +77,7 @@ static NSString *cache;
 }
 
 - (void)setDescribeTextAlignment:(NSTextAlignment)describeTextAlignment {
-    if (describeTextAlignment) {
-        self.describeLabel.textAlignment = describeTextAlignment;
-    }
+    self.describeLabel.textAlignment = describeTextAlignment;
 }
 
 #pragma mark 代码创建
